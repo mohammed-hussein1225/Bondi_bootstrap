@@ -38,9 +38,9 @@ body {
   background-color: var(--dark-color);
 }
 .close {
+  color: var(--red-color);
   font-weight: lighter;
   cursor: pointer;
-  color: var(--red-color);
 }
 
 .navbar .navbar-toggler {
