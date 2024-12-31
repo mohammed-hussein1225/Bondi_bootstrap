@@ -40,7 +40,7 @@ body {
 .close {
   font-weight: lighter;
   cursor: pointer;
-  color: var(--green-color);
+  color: var(--red-color);
 }
 
 .navbar .navbar-toggler {
