@@ -13,12 +13,14 @@ body {
 .main-btn {
   color: var(--yellow-color);
   background-color: var(--red-color);
-  padding: 0.5rem 1rem;
-  font-size: 1.2rem;
 }
 .main-btn:hover {
   color: var(--yellow-color);
   background-color: var(--red-color);
+}
+.btn:active {
+  color: var(--yellow-color) !important;
+  background-color: var(--red-color) !important;
 }
 .main-title::after {
   content: " ";
@@ -31,8 +33,14 @@ body {
   transform: translateX(-50%);
 }
 /* start navbar */
-.navbar {
+.navbar,
+.offcanvas {
   background-color: var(--dark-color);
+}
+.close {
+  font-weight: lighter;
+  cursor: pointer;
+  color: var(--green-color);
 }
 
 .navbar .navbar-toggler {
@@ -47,14 +55,6 @@ body {
 .navbar .nav-item .nav-link.active,
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link:focus {
-  color: var(--green-color);
-}
-
-.navbar .search {
-  border-left: 1px solid var(--green-color);
-}
-
-.navbar .search svg {
   color: var(--green-color);
 }
 
